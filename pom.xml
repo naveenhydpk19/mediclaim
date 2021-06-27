@@ -21,7 +21,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.host.url>http://44.194.101.160:9000</sonar.host.url>
 		<sonar.login.admin>admin</sonar.login.admin>
-		<sonar.password>admin</sonar.passwrod>
+		<sonar.password>admin</sonar.password>
 	</properties>
 
 	<dependencies>
