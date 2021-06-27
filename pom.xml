@@ -84,7 +84,7 @@
 				<version>6.2.2</version>
 				<executions>
 					<execution>
-						<goals><goal>check</goa></goals>
+						<goals><goal>check</goal></goals>
 					</execution>
 				</executions>
 				<configuration>
