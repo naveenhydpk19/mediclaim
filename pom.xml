@@ -181,7 +181,7 @@
 		</snapshotRepository>
 		<repository>
 		    <id>nexus</id>
-	    	   <url>http://44.194.101.160:8081/repository/nexus/content/repositories/naveen-RELEASES</url>
+	    	   <url>http://44.194.101.160:8081/repository/nexus/content/repositories/releases</url>
        		</repository>
 	</distributionManagement>		
 </project>
