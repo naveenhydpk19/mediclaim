@@ -177,11 +177,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://44.194.101.160:8081/repository/maven-snapshots</url>
+			<url>http://44.194.101.160:8081/repository/naveen-snapshots/</url>
 		</snapshotRepository>
 		<repository>
 		    <id>nexus</id>
-	    	   <url>http://44.194.101.160:8081/nexus/content/repositories/releases</url>
+	    	   <url>http://44.194.101.160:8081/repository/naveen-RELEASES/</url>
        		</repository>
 	</distributionManagement>		
 </project>
