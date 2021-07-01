@@ -19,7 +19,7 @@
 		<java.version>1.8</java.version>
 		<sonar.coverage.exclusions>**mediclaim/*,**/config/*,**/entity/*,**/dto/*,**/repository/*,**/exception/*,**/util/*</sonar.coverage.exclusions>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<sonar.host.url>http://44.194.101.160:9000</sonar.host.url>
+		<sonar.host.url>http://ec2-107-22-167-10.compute-1.amazonaws.com:9000</sonar.host.url>
 		<sonar.login.admin>admin</sonar.login.admin>
 		<sonar.password>admin</sonar.password>
 	</properties>
@@ -174,14 +174,5 @@
 
 		</plugins>
 	</build>
-	<distributionManagement>
-		<snapshotRepository>
-			<id>nexus</id>
-			<url>http://44.194.101.160:8081/repository/naveen-snapshots/</url>
-		</snapshotRepository>
-		<repository>
-		    <id>nexus</id>
-	    	   <url>http://44.194.101.160:8081/repository/nexus/content/repositories/releases</url>
-       		</repository>
-	</distributionManagement>		
+		
 </project>
